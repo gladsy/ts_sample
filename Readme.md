@@ -1,2 +1,4 @@
 ## Typescriptテスト
-はじめにpush!
+はじめに、Add!
+そして、Commit!
+さらに、push!
