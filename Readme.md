@@ -1,0 +1,2 @@
+## Typescriptテスト
+はじめにpush!
