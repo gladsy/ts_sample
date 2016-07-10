@@ -4,8 +4,10 @@ var Hello = (function () {
         console.log("Hello World");
     }
     Hello.prototype.tick = function () {
-        ++this.count;
-        console.log('count', this.count);
+        for (var count = 0; this.count < 10; this.count++) {
+            // ++this.count;
+            console.log('count', this.count);
+        }
     };
     return Hello;
 }());

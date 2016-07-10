@@ -6,8 +6,10 @@ class Hello {
     }
 
     public tick():void {
-        ++this.count;
-        console.log('count', this.count);
+        for (var count = 0; this.count < 10; this.count++) {
+            // ++this.count;
+            console.log('count', this.count);
+        }
     }
 }
 
